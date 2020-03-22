@@ -30,7 +30,7 @@ const student = {
 console.log(typeof student.isActive)
 console.log(`Student: ${student.name} ${student.surname}, now is active: ${student.isActive}`)
 
-const fruits = ["apple","pineapple","berry","cytrus","cerry"]
+const fruits = ["apple","coconut","berry","cytrus","cerry"]
 console.log('fruits',fruits)
 
 const numbers = [0,1,2,3,4,5]
