@@ -1,14 +1,14 @@
 console.log("My first debug")
 
 let age = 23
-let NameOfMyDog = "Jack"
+let nameOfMyDog = "Jack"
 console.log(age)
-console.log(NameOfMyDog)
+console.log(nameOfMyDog)
 
 age = 45
-NameOfMyDog = "George"
+nameOfMyDog = "George"
 console.log(age)
-console.log(NameOfMyDog)
+console.log(nameOfMyDog)
 
 let number = 10
 let string = "Dima"
@@ -30,8 +30,14 @@ const student = {
 console.log(typeof student.isActive)
 console.log(`Student: ${student.name} ${student.surname}, now is active: ${student.isActive}`)
 
-const newArray = [{fruitfirst:"apple", fruitsecond:"pineapple"} , {numberfirst:10, numbersecond:20} , {nameOfStudent:"dima",surnameOfStudent:"basamyhin"} , {nameOfSecondStudent:"Nazar",surnameOfSecondStudent:"Nazarchuk"} , {nameOfThirdName:"Alex" , nameOfThirdStudent:"Adamov"} ]
-console.log(newArray)
+const fruits = ["apple","pineapple","berry","cytrus","cerry"]
+console.log('fruits',fruits)
+
+const numbers = [0,1,2,3,4,5]
+console.log('numbers', numbers)
+
+const students = [{name:"Dima", surname:"Basamyhin", age:20} , {name:"Ivan", surname:"Ivanov", age:20} , {name:"Petr", surname:"Petrov", age:22} , {name:"Nazar", surname:"Prohorchuk", age:21} , {name:"Alex", surname:"Hleb", age:24} ]
+console.log(students)
 
 let star = [0,1,2,3,4,5,6,7,8,9]
 console.log(star[0],star[9])
